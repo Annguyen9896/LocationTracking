@@ -15,6 +15,7 @@
 		8E5C5D2C23DFC7FD00F65197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5C5D2A23DFC7FD00F65197 /* LaunchScreen.storyboard */; };
 		8E5C5D3723DFC7FD00F65197 /* Location_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C5D3623DFC7FD00F65197 /* Location_AppTests.swift */; };
 		8E5C5D4223DFC7FD00F65197 /* Location_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C5D4123DFC7FD00F65197 /* Location_AppUITests.swift */; };
+		8E5C5D5123DFD31000F65197 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C5D5023DFD31000F65197 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8E5C5D3D23DFC7FD00F65197 /* Location AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5C5D4123DFC7FD00F65197 /* Location_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AppUITests.swift; sourceTree = "<group>"; };
 		8E5C5D4323DFC7FD00F65197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5C5D5023DFD31000F65197 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5C5D5123DFD31000F65197 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				8E5C5D3523DFC7FD00F65197 /* Location AppTests */,
 				8E5C5D4023DFC7FD00F65197 /* Location AppUITests */,
 				8E5C5D1D23DFC7FB00F65197 /* Products */,
+				8E5C5D4F23DFD31000F65197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				8E5C5D4323DFC7FD00F65197 /* Info.plist */,
 			);
 			path = "Location AppUITests";
+			sourceTree = "<group>";
+		};
+		8E5C5D4F23DFD31000F65197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C5D5023DFD31000F65197 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
